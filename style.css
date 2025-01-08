@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #0E0B07;
+}
+
+h1 {
+    /* border: 2px solid blue; */
+    margin: 10px;
+}
+
+.container {
+    border: 2px solid black;
+    text-align: center;
+    width: 35vw;
+    height: auto;
+    background-color: #F9F7F3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 5px;
+    margin: 45px auto;
+}
+
+.gamebox {
+    /* border: 2px solid red; */
+    width: 24.2vw;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.row {
+    display: flex;
+    gap: 5px;
+}
+
+.col {
+    font-size: xx-large;
+    width: 6.685vw;
+    height: 16vh;
+    background-color: rgba(228, 201, 147, 0.829);
+    cursor: pointer;
+    border-radius: 7px;
+    border: none;
+    box-shadow: 10px 10px 5px 0px rgba(107, 106, 106, 0.75);
+    color: black;
+}
+
+.col:hover {
+    background-color: rgba(221, 186, 117, 0.829);
+}
+
+.btn {
+    margin: 10px;
+    padding: 13px;
+    border: none;
+    font-size: medium;
+    font-weight: 500;
+    border-radius: 7px;
+    cursor: pointer;
+    background-color: rgba(164, 143, 101, 0.829);
+    box-shadow: 13px 3px 5px 0px rgba(163, 143, 104, 0.966);
+}
+
+.btn:hover {
+    background-color: rgba(146, 122, 75, 0.829);
+}
+
+.newbtn {
+    margin: 10px;
+    padding: 13px;
+    border: none;
+    font-size: medium;
+    font-weight: 500;
+    border-radius: 7px;
+    cursor: pointer;
+    background-color: rgba(164, 143, 101, 0.829);
+    box-shadow: 15px 3px 5px 0px rgba(163, 143, 104, 0.966);
+}
+
+.newbtn:hover {
+    background-color: rgba(146, 122, 75, 0.829);
+}
+
+#msg {
+    /* border: 2px solid; */
+    font-size: x-large;
+    font-weight: 600;
+    margin: 10px;
+}
+
+.hide{
+    display: none;
+}
+
+@media (max-width: 575px) {
+    .gamebox {
+        /* border: 2px solid red; */
+        width: 24.2vw;
+        height: 57vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .col {
+        width: 6.685vw;
+        height: 16vh;
+        background-color: rgba(228, 201, 147, 0.829);
+        cursor: pointer;
+        border-radius: 7px;
+        border: none;
+        box-shadow: 10px 10px 5px 0px rgba(107, 106, 106, 0.75);
+    }
+}
