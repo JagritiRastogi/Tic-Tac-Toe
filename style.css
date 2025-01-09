@@ -16,7 +16,7 @@ h1 {
 .container {
     border: 2px solid black;
     text-align: center;
-    width: 35vw;
+    width: 50vw;
     height: auto;
     background-color: #F9F7F3;
     display: flex;
@@ -29,8 +29,8 @@ h1 {
 
 .gamebox {
     /* border: 2px solid red; */
-    width: 24.2vw;
-    height: 55vh;
+    width: 25.2vw;
+    height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -45,8 +45,8 @@ h1 {
 
 .col {
     font-size: xx-large;
-    width: 6.685vw;
-    height: 16vh;
+    width: 7.685vw;
+    height: 14vh;
     background-color: rgba(228, 201, 147, 0.829);
     cursor: pointer;
     border-radius: 7px;
@@ -105,7 +105,7 @@ h1 {
 @media (max-width: 575px) {
     .gamebox {
         /* border: 2px solid red; */
-        width: 24.2vw;
+        width: 27.2vw;
         height: 57vh;
         display: flex;
         flex-direction: column;
@@ -115,8 +115,8 @@ h1 {
     }
 
     .col {
-        width: 6.685vw;
-        height: 16vh;
+        width: 9.685vw;
+        height: 14vh;
         background-color: rgba(228, 201, 147, 0.829);
         cursor: pointer;
         border-radius: 7px;
