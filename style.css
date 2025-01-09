@@ -29,7 +29,7 @@ h1 {
 
 .gamebox {
     /* border: 2px solid red; */
-    width: 25.2vw;
+    width: 24.2vw;
     height: 50vh;
     display: flex;
     flex-direction: column;
@@ -46,7 +46,7 @@ h1 {
 .col {
     font-size: xx-large;
     width: 7.685vw;
-    height: 14vh;
+    height: 15vh;
     background-color: rgba(228, 201, 147, 0.829);
     cursor: pointer;
     border-radius: 7px;
